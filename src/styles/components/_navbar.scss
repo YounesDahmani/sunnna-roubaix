@@ -1,0 +1,22 @@
+.navbar {
+  padding: 10px 10px;
+  img {
+    width: 100px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    li {
+      padding: 0px 15px;
+    }
+  }
+  a,
+  a:visited {
+    color: $color-1;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: $font-1;
+  }
+}

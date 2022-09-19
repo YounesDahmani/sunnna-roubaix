@@ -1,0 +1,17 @@
+.header {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  img {
+    width: 100%;
+  }
+
+  .title {
+    color: $color-1;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+  }
+}
